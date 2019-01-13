@@ -1,0 +1,23 @@
+************process of creating branch in master repository****************
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git branch firstbranch //adding branch and naming it "firstbranch"
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git checkout firstbranch   //Swtiching from master to first branch
+Switched to branch 'firstbranch'
+M       Third_File.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$git add first_branch //added new text file in first branch
+
+$git commit -m "Adding text file to first branch"
+
+*****this text file is added in first braanch along with the other file and not in master
+*****to check list of files in first branch we write
+$ls  //listing all files in first branch
+
+to switch back to master we write
+$git checkout master
+
+*** we can check the list that only three files are here by writing
+$ls
