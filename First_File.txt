@@ -63,6 +63,7 @@ $ git commit -m "adding first text file"   //adding first file
 
 Run
 
+
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 
@@ -84,6 +85,26 @@ $  git commit -m "adding first text file" //finally added txt file to cleargithu
 [master 375b738] adding first text file
  1 file changed, 11 insertions(+)
  create mode 100644 First_File.txt
+*****************commit again******************************
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git status                                      //checked status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   First_File.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git add First_File.txt                               //added txt file
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git commit -m "Updated txt file and added to github"  //commit txt file
+[master 0561585] Updated txt file and added to github
+ 1 file changed, 82 insertions(+), 1 deletion(-)
+
 
 
 
