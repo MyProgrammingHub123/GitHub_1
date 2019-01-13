@@ -9,3 +9,84 @@ to check status we write
 $git status
 to add file/code
 $git add file name
+to clear we write
+$clear
+git bash file response
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository
+$ git init                    //start with this command
+Initialized empty Git repository in C:/Git/GitWorkSpaceRepository/.git/
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git remote add origin "https://github.com/MyProgrammingHub123/GitHub_1.git"//adding URI
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git pull origin master       //pulling from github repository
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/MyProgrammingHub123/GitHub_1
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git status    //checking status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        First_File.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git add First_File.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   First_File.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   First_File.txt
+
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git commit -m "adding first text file"   //adding first file
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Erum@DESKTOP-9RBOJT6.(none)')
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git config --global user.email "erumamjad@hotmail.com" //adding email
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git config --global user.name "MyProgrammingHub123"    //adding user name of gitHub
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ ^C
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$  git commit -m "adding first text file" //finally added txt file to cleargithub
+[master 375b738] adding first text file
+ 1 file changed, 11 insertions(+)
+ create mode 100644 First_File.txt
+
+
+
+
+
+
