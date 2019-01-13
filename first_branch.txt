@@ -55,3 +55,15 @@ First_File.txt  README.md  Second_File.txt  Third_File.txt
 *****************merging and making changes to first branch***********
 //after merging if we make changes to first branch it will not efftect the master
 //untill we merge it back to master file
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$ git add first_branch.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$ git commit -m "After merging made changes again in file"
+[firstbranch 13bf20f] After merging made changes again in file
+ 1 file changed, 4 insertions(+)
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$git commit -a -m "updated with commit cmd"  //we can also update with commit if the file already exists
+
+$cat first_branch.txt   //used this cmd to check the modification
