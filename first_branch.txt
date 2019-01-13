@@ -51,3 +51,7 @@ M       Third_File.txt
 Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
 $ ls                  //checking list of files in branch
 First_File.txt  README.md  Second_File.txt  Third_File.txt
+
+*****************merging and making changes to first branch***********
+//after merging if we make changes to first branch it will not efftect the master
+//untill we merge it back to master file
