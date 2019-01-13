@@ -21,3 +21,33 @@ $git checkout master
 
 *** we can check the list that only three files are here by writing
 $ls
+*******************bash file responses*********************************
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git branch firstbranch
+*******************process of creating branch *****************
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ git checkout firstbranch            //created branch
+Switched to branch 'firstbranch'
+M       Third_File.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$ git add first_branch.txt           //added first_branch.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$ git commit -m "Adding file to firstbranch"  //commited on file
+[firstbranch 5f0bb41] Adding file to firstbranch
+ 1 file changed, 23 insertions(+)
+ create mode 100644 first_branch.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$ ls                   //checking list of files in firstbranch
+first_branch.txt  First_File.txt  README.md  Second_File.txt  Third_File.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (firstbranch)
+$ git checkout master   //switched back to master
+Switched to branch 'master'
+M       Third_File.txt
+
+Erum@DESKTOP-9RBOJT6 MINGW64 /GitWorkSpaceRepository (master)
+$ ls                  //checking list of files in branch
+First_File.txt  README.md  Second_File.txt  Third_File.txt
