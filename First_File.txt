@@ -1,0 +1,11 @@
+This is my first file
+we always use lowercase for git bash file;
+How to use git hub
+to add to git hub in a new repositorywe write 
+$git remote add origin "The repository URI comes here"
+To pull we write
+$git pull origin master
+to check status we write
+$git status
+to add file/code
+$git add file name
