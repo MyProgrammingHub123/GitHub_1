@@ -1,0 +1,6 @@
+**************merging/rebasing************
+for merging we use
+$git merge firstbranch
+
+for rebasing we writes
+$git rebase filename
